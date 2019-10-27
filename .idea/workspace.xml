@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01cbe15a-3a25-46db-a547-e92692e9abc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01cbe15a-3a25-46db-a547-e92692e9abc2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +109,7 @@
       <workItem from="1572187347714" duration="9636000" />
       <workItem from="1572205406844" duration="5212000" />
       <workItem from="1572213947276" duration="448000" />
+      <workItem from="1572214440942" duration="558000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;initial commit&gt; add base page connect to redux, add color changer controller">
       <created>1572214114729</created>
