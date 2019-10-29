@@ -8,7 +8,7 @@ import FastEditionTab from '../FastEditiongTab/FastEditiongTab'
 import {changeBodyColor, changeHeaderColor, changeTextColor} from "../../actions/fastEditiongActions";
 import {connect} from "react-redux";
 
-export default class HomePage extends React.Component{
+class HomePage extends React.Component{
     constructor(props)  {
         super(props);
         this.state = {
@@ -18,17 +18,17 @@ export default class HomePage extends React.Component{
     }
 
     toggleSettingsPanel(e) {
-        console.log(this.props);
         this.setState( {
            toggleSettingsBar: !this.state.toggleSettingsBar
         });
     }
 
-    render() {
 
+
+    render() {
         return (
             <Fragment>
-                <Header />
+                <Header headerColor={this.props.headerColor} />
                 <div className={"mainContainer"}>
                     <div className={"leftCorrectionBlock"} />
                     <div className={"mainContainerWrapper"}>
@@ -61,4 +61,4 @@ const mapDispatchToProps = dispatch => ({
     changeBodyColor: (newColor) => dispatch(changeBodyColor(newColor)),
     changeTextColor: (newColor) => dispatch(changeTextColor(newColor))
 });
-connect(mapStateToProps, mapDispatchToProps)(HomePage);
+export default connect(mapStateToProps, mapDispatchToProps)(HomePage);

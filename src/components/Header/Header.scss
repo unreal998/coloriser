@@ -1,0 +1,46 @@
+.headerWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  background-color: #42b258;;
+}
+.logoContainer {
+  width: 30%;
+}
+.headerMain {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.headerMenuWrapper {
+  align-items: center;
+  width: 50%;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+.userInfoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 17%;
+}
+.headerButton {
+  font-weight: bold;
+  margin: 1rem;
+  .headerNav {
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  :hover {
+    cursor: pointer;
+    border-radius: 0.1rem;
+    background-color: white;
+    color: #282c34;
+  }
+}

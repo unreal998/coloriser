@@ -1,9 +1,9 @@
 import {BODY_COLOR, HEADER_COLOR, TEXT_COLOR} from "../constants/fastEditiongConstants";
 
 let defaultState = {
-    headerColor: "#000",
-    textColor: "#000",
-    backgroundColor: "#000"
+    headerColor: "#42b258",
+    textColor: "#000000",
+    backgroundColor: "#000000"
 };
 
 export const fastEditorReducer = (state = Object.assign({}, defaultState), action) => {

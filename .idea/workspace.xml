@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01cbe15a-3a25-46db-a547-e92692e9abc2" name="Default Changelist" comment="" />
+    <list default="true" id="01cbe15a-3a25-46db-a547-e92692e9abc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FastEditiongTab/FastEditiongTab.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FastEditiongTab/FastEditiongTab.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/fastEditiongReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/fastEditiongReducer.jsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,12 +52,13 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\work\coloraiser\src\reducers" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\work\coloraiser\src\assets" />
       <recent name="E:\work\coloraiser\src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\coloraiser\src\components\Header" />
+      <recent name="E:\work\coloraiser\src\reducers" />
       <recent name="E:\work\coloraiser\src\assets" />
       <recent name="E:\work\coloraiser\src" />
     </key>
@@ -110,6 +121,9 @@
       <workItem from="1572205406844" duration="5212000" />
       <workItem from="1572213947276" duration="448000" />
       <workItem from="1572214440942" duration="558000" />
+      <workItem from="1572215028322" duration="143000" />
+      <workItem from="1572295294714" duration="2525000" />
+      <workItem from="1572380621263" duration="5476000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;initial commit&gt; add base page connect to redux, add color changer controller">
       <created>1572214114729</created>
@@ -118,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572214114730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/unreal998/coloriser&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1572215073970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572215073970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modify README">
+      <created>1572215160223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572215160223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +167,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;initial commit&gt; add base page connect to redux, add color changer controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;initial commit&gt; add base page connect to redux, add color changer controller" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/unreal998/coloriser&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="modify README" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify README" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

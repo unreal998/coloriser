@@ -1,33 +1,3 @@
-.headerWrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  background-color: #42b258;;
-}
-.headerMain {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-between;
-}
-.headerButton {
-  font-weight: bold;
-  margin: 1rem;
-  .headerNav {
-    padding: 0.5rem;
-    color: white;
-    text-decoration: none;
-  }
-  :hover {
-    cursor: pointer;
-    border-radius: 0.1rem;
-    background-color: white;
-    color: #282c34;
-  }
-}
 .mainContainerWrapper {
   display: flex;
   flex-direction: column;
@@ -38,6 +8,8 @@
 }
 .mainContainer {
   display: flex;
+  width: 100%;
+  justify-content: center;
 }
 .leftCorrectionBlock {
   width: 5%;
