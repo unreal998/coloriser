@@ -20,24 +20,29 @@ export function LoginForm() {
     const classes = useStyles();
     const theme = useTheme();
     const fullScreen = useMediaQuery(theme.breakpoints.down('sm'));
-    const [open, setOpen] = React.useState(true);
 
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
     return (
-        <Dialog children={<div>Dialog</div>} open={open} fullScreen={fullScreen} onClose={handleClose}>
+        <Dialog children={<div>Dialog</div>} open={true} fullScreen={fullScreen} >
             <DialogTitle id="Title">{"Login"}</DialogTitle>
             <DialogContent>
                 <form method={"GET"} action="#">
                     <TextField
                         className={classes.margin}
                         id="Name"
-                        label="TextField"
+                        label="E-mail"
+                        InputProps={{
+                            startAdornment: (
+                                <InputAdornment position="start">
+                                    <AccountCircle />
+                                </InputAdornment>
+                            ),
+                        }}
+                    />
+                    <TextField
+                        className={classes.margin}
+                        id="Name"
+                        type ="password"
+                        label="password"
                         InputProps={{
                             startAdornment: (
                                 <InputAdornment position="start">

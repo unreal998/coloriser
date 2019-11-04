@@ -28,7 +28,7 @@ class HomePage extends React.Component{
     render() {
         return (
             <Fragment>
-                <Header headerColor={this.props.headerColor} />
+                <Header headerColor={this.props.headerColor} textColor={this.props.textColor} />
                 <div className={"mainContainer"}>
                     <div className={"leftCorrectionBlock"} />
                     <div className={"mainContainerWrapper"}>
@@ -44,7 +44,6 @@ class HomePage extends React.Component{
                         <div className={"rightCorrectionBlock"} />
                     </div>
                 </div>
-                <LoginForm />
             </Fragment>
         )
     }
@@ -52,7 +51,8 @@ class HomePage extends React.Component{
 
 const mapStateToProps = state => {
     return {
-        headerColor: state.fastEditorReducer.headerColor
+        headerColor: state.fastEditorReducer.headerColor,
+        textColor: state.fastEditorReducer.textColor
     }
 };
 

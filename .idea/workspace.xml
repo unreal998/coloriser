@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01cbe15a-3a25-46db-a547-e92692e9abc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/userDataAction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Root/RootComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/userDataConstants.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Root/RootContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/userReducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FastEditiongTab/FastEditiongTab.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FastEditiongTab/FastEditiongTab.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/fastEditiongReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/fastEditiongReducer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
         <option value="JavaScriptExtend" />
       </list>
     </option>
@@ -37,7 +48,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task1" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,13 +64,13 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\work\coloraiser\src\assets" />
-      <recent name="E:\work\coloraiser\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\work\coloraiser\src\components\Header" />
       <recent name="E:\work\coloraiser\src\reducers" />
+      <recent name="E:\work\coloraiser\src\assets" />
+      <recent name="E:\work\coloraiser\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\work\coloraiser\src\assets" />
       <recent name="E:\work\coloraiser\src" />
     </key>
@@ -123,7 +135,10 @@
       <workItem from="1572214440942" duration="558000" />
       <workItem from="1572215028322" duration="143000" />
       <workItem from="1572295294714" duration="2525000" />
-      <workItem from="1572380621263" duration="5476000" />
+      <workItem from="1572380621263" duration="8183000" />
+      <workItem from="1572728488569" duration="8865000" />
+      <workItem from="1572815278836" duration="10262000" />
+      <workItem from="1572906029670" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;initial commit&gt; add base page connect to redux, add color changer controller">
       <created>1572214114729</created>
@@ -146,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572215160223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="header listen colorHeader state now, add user info block">
+      <created>1572391015153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572391015153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +191,8 @@
     <MESSAGE value="&lt;initial commit&gt; add base page connect to redux, add color changer controller" />
     <MESSAGE value="Merge branch 'master' of https://github.com/unreal998/coloriser&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="modify README" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify README" />
+    <MESSAGE value="header listen colorHeader state now, add user info block" />
+    <option name="LAST_COMMIT_MESSAGE" value="header listen colorHeader state now, add user info block" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

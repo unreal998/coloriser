@@ -8,6 +8,11 @@
 }
 .logoContainer {
   width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2vw;
 }
 .headerMain {
   width: 90%;

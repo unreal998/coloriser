@@ -3,12 +3,13 @@ import {Link} from "react-router-dom";
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import "./Header.scss";
+import {Logo} from "../Logo/Logo";
 export const Header = (props) => {
     return (
         <div className="headerWrapper" style={{"background": props.headerColor}}>
             <div className="headerMain">
                 <div className="logoContainer">
-
+                    <Logo color={props.textColor} />
                 </div>
                 <div className="headerMenuWrapper">
                     <div className="headerButton">
@@ -24,7 +25,7 @@ export const Header = (props) => {
                 <div className="userInfoWrapper">
                     <AccountCircleIcon fontSize="large"/>
                     <p>User Name</p>
-                    <ArrowDropDownIcon fontSize="medium" />
+                    <ArrowDropDownIcon fontSize="default" />
                     {/*<img alt="" className="userIcon" src="#"/>*/}
                 </div>
             </div>
